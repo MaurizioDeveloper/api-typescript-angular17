@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon dist/index.js",
-    "typescript": "tsc --watch",
-    "vercel-build": "echo hello"
+    "build": "tsc",
+    "start": "node src/app.js",
+    "typescript": "tsc --watch"
   },
   "keywords": [],
   "author": "",
